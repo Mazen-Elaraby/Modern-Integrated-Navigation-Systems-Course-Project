@@ -1,0 +1,64 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {II}Implementation Details}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}System Overview}{1}{}\protected@file@percent }
+\citation{iqbal2009}
+\citation{noureldin2013}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A block diagram of a loosely coupled 3D RISS/GPS integration}}{2}{}\protected@file@percent }
+\newlabel{fig:BD}{{1}{2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}1}Sensor Inputs and Mechanization}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-A}2}GNSS Integration and Error Estimation}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Error-State Vector}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}Stochastic Modeling of Inertial Sensor Errors}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-C}1}The Gauss-Markov Process}{2}{}\protected@file@percent }
+\newlabel{eq:gm_continuous}{{3}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}System Model of the Kalman Filter}{3}{}\protected@file@percent }
+\newlabel{eq:error_state_system}{{5}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}Measurement Model of the Kalman Filter}{3}{}\protected@file@percent }
+\newlabel{eq:measurement_model}{{13}{3}}
+\newlabel{eq:measurement_expansion}{{14}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-F}}Kalman Filter Equations}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-F}1}Prediction Step}{3}{}\protected@file@percent }
+\newlabel{eq:kf_state_prediction}{{15}{3}}
+\newlabel{eq:kf_cov_prediction}{{16}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {II-F}2}Correction Step}{4}{}\protected@file@percent }
+\newlabel{eq:kf_gain}{{17}{4}}
+\newlabel{eq:kf_state_update}{{18}{4}}
+\newlabel{eq:kf_cov_update}{{19}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Results}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Estimated Trajectory}}{4}{}\protected@file@percent }
+\newlabel{fig:traj}{{2}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Error Statistics in Position and Velocity}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Positioning Errors}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Velocity Errors}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}2D and 3D Positioning Errors}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-E}}Effect of GPS Outages on Navigation Accuracy}{4}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Error statistics: Std, RMS, and Max for North, East, Altitude, 2D, and 3D Positional Errors.}}{5}{}\protected@file@percent }
+\newlabel{tab:error_stats}{{I}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Error statistics: Std, RMS, and Max for East, North and Up Velocity Components Errors.}}{5}{}\protected@file@percent }
+\newlabel{tab:velocity_error}{{II}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Positional Components \& their Associated Errors}}{5}{}\protected@file@percent }
+\newlabel{fig:pos_err}{{3}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Discussion}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}System Performance Under Normal Conditions}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}1}Trajectory Accuracy and Long-Term Drift Mitigation}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}2}Horizontal Positioning Accuracy and Error Trends}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}3}Altitude Estimation and Vertical Positioning Challenges}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}4}3D Positioning Error}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}5}Velocity Estimation Performance}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Velocity Components \& their Associated Errors}}{6}{}\protected@file@percent }
+\newlabel{fig:vel_err}{{4}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Errors in 2D \& 3D Positioning}}{6}{}\protected@file@percent }
+\newlabel{fig:2D3D_err}{{5}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Performance Under GPS Outages}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}1}INS Drift Accumulation During GPS Outages}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}2}Error Growth Over Time}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion}{6}{}\protected@file@percent }
+\bibcite{iqbal2009}{1}
+\bibcite{noureldin2013}{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Positional Components \& their Associated Erros in Presence of GPS Outages}}{7}{}\protected@file@percent }
+\newlabel{fig:out_pos_err}{{6}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 2D Positioning Errors in Presence of GPS Outages}}{7}{}\protected@file@percent }
+\newlabel{fig:out_2D_err}{{7}{7}}
+\@writefile{toc}{\contentsline {section}{References}{7}{}\protected@file@percent }
+\gdef \@abspage@last{7}

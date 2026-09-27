@@ -1,0 +1,250 @@
+Error Logs
+
+Vanilla NLS & KF 
+
+NLS
+
+Error STD:  {'east': 12.92, 'north': 8.511, '2d': 14.256, 'altitude': 51.32, '3d': 51.762}
+Error RMS:  {'east': 13.914, 'north': 14.074, '2d': 19.791, 'altitude': 51.374, '3d': 55.054}
+Error Max:  {'east': 589.423, 'north': 305.467, '2d': 663.874, 'altitude': 2428.046, '3d': 2517.168}
+
+Error STD:  {'east': 2.495, 'north': 1.34, 'up': 10.176}
+Error RMS:  {'east': 2.496, 'north': 1.34, 'up': 10.178}
+Error Max:  {'east': 124.464, 'north': 65.579, 'up': 508.449}
+
+KF
+
+Error STD:  {'east': 3.429, 'north': 4.784, '2d': 4.822, 'altitude': 12.35, '3d': 6.492}
+Error RMS:  {'east': 6.168, 'north': 11.271, '2d': 12.848, 'altitude': 12.413, '3d': 17.865}
+Error Max:  {'east': 36.815, 'north': 47.704, '2d': 56.159, 'altitude': 85.566, '3d': 87.088}
+
+Error STD:  {'east': 0.227, 'north': 0.307, 'up': 0.421}
+Error RMS:  {'east': 0.227, 'north': 0.307, 'up': 0.421}
+Error Max:  {'east': 5.323, 'north': 7.595, 'up': 4.05}
+
+
+
+DOP Based Thresholding (Threshold = 6)
+
+NLS
+
+Error STD:  {'east': 6.401, 'north': 14.082, '2d': 11.845, 'altitude': 9.702, '3d': 11.514}
+Error RMS:  {'east': 8.538, 'north': 17.487, '2d': 19.46, 'altitude': 9.716, '3d': 21.751}
+Error Max:  {'east': 86.26, 'north': 194.222, '2d': 194.276, 'altitude': 52.487, '3d': 194.782}
+
+Error STD:  {'east': 0.471, 'north': 0.743, 'up': 0.333}
+Error RMS:  {'east': 0.472, 'north': 0.748, 'up': 0.333}
+Error Max:  {'east': 5.058, 'north': 9.145, 'up': 4.403}
+
+KF
+
+Error STD:  {'east': 6.558, 'north': 13.908, '2d': 12.167, 'altitude': 11.183, '3d': 11.95}
+Error RMS:  {'east': 8.297, 'north': 16.529, '2d': 18.495, 'altitude': 11.207, '3d': 21.625}
+Error Max:  {'east': 86.36, 'north': 195.457, '2d': 195.539, 'altitude': 45.384, '3d': 196.079}
+
+Error STD:  {'east': 0.475, 'north': 0.713, 'up': 0.361}
+Error RMS:  {'east': 0.476, 'north': 0.717, 'up': 0.361}
+Error Max:  {'east': 5.065, 'north': 8.631, 'up': 4.265}
+
+
+
+DOP Based Thresholding (Threshold = 7)
+
+NLS
+
+Error STD:  {'east': 6.332, 'north': 10.145, '2d': 8.489, 'altitude': 10.034, '3d': 8.259}
+Error RMS:  {'east': 8.4, 'north': 14.697, '2d': 16.928, 'altitude': 10.036, '3d': 19.68}
+Error Max:  {'east': 86.26, 'north': 140.497, '2d': 140.722, 'altitude': 52.487, '3d': 142.36}
+
+Error STD:  {'east': 0.452, 'north': 0.67, 'up': 0.345}
+Error RMS:  {'east': 0.453, 'north': 0.67, 'up': 0.345}
+Error Max:  {'east': 5.058, 'north': 9.145, 'up': 4.403}
+
+KF
+
+Error STD:  {'east': 6.495, 'north': 9.242, '2d': 8.27, 'altitude': 11.488, '3d': 8.445}
+Error RMS:  {'east': 8.211, 'north': 13.178, '2d': 15.526, 'altitude': 11.516, '3d': 19.331}
+Error Max:  {'east': 86.36, 'north': 126.823, '2d': 126.832, 'altitude': 54.306, '3d': 127.165}
+
+Error STD:  {'east': 0.457, 'north': 0.64, 'up': 0.37}
+Error RMS:  {'east': 0.458, 'north': 0.641, 'up': 0.37}
+Error Max:  {'east': 5.065, 'north': 8.631, 'up': 4.265}
+
+
+
+DOP Based Thresholding (Threshold = 8)
+
+NLS
+
+Error STD:  {'east': 5.958, 'north': 7.603, '2d': 6.561, 'altitude': 10.098, '3d': 6.287}
+Error RMS:  {'east': 8.12, 'north': 13.374, '2d': 15.646, 'altitude': 10.098, '3d': 18.622}
+Error Max:  {'east': 86.26, 'north': 64.756, '2d': 86.318, 'altitude': 52.487, '3d': 86.463}
+
+Error STD:  {'east': 0.408, 'north': 0.537, 'up': 0.339}
+Error RMS:  {'east': 0.409, 'north': 0.538, 'up': 0.339}
+Error Max:  {'east': 5.058, 'north': 7.357, 'up': 4.403}
+
+KF
+
+Error STD:  {'east': 6.117, 'north': 7.037, '2d': 6.648, 'altitude': 11.9, '3d': 7.402}
+Error RMS:  {'east': 7.859, 'north': 11.995, '2d': 14.34, 'altitude': 11.938, '3d': 18.659}
+Error Max:  {'east': 86.36, 'north': 63.182, '2d': 86.478, 'altitude': 66.434, '3d': 86.51}
+
+Error STD:  {'east': 0.412, 'north': 0.526, 'up': 0.375}
+Error RMS:  {'east': 0.413, 'north': 0.526, 'up': 0.375}
+Error Max:  {'east': 5.065, 'north': 7.844, 'up': 4.265}
+
+
+
+
+DOP Based Thresholding (Threshold = 9)
+
+NLS
+
+Error STD:  {'east': 5.72, 'north': 6.711, '2d': 6.114, 'altitude': 9.982, '3d': 5.822}
+Error RMS:  {'east': 7.874, 'north': 12.961, '2d': 15.166, 'altitude': 9.983, '3d': 18.156}
+Error Max:  {'east': 86.26, 'north': 59.319, '2d': 86.318, 'altitude': 52.487, '3d': 86.463}
+
+Error STD:  {'east': 0.322, 'north': 0.506, 'up': 0.323}
+Error RMS:  {'east': 0.323, 'north': 0.506, 'up': 0.323}
+Error Max:  {'east': 4.719, 'north': 7.717, 'up': 3.562}
+
+KF
+
+Error STD:  {'east': 5.941, 'north': 6.747, '2d': 6.516, 'altitude': 11.844, '3d': 7.282}
+Error RMS:  {'east': 7.656, 'north': 11.836, '2d': 14.097, 'altitude': 11.895, '3d': 18.445}
+Error Max:  {'east': 86.36, 'north': 80.22, '2d': 86.478, 'altitude': 66.434, '3d': 86.51}
+
+Error STD:  {'east': 0.328, 'north': 0.491, 'up': 0.395}
+Error RMS:  {'east': 0.329, 'north': 0.491, 'up': 0.395}
+Error Max:  {'east': 4.703, 'north': 7.659, 'up': 4.265}
+
+
+DOP Based Thresholding (Threshold = 10)
+
+NLS
+
+Error STD:  {'east': 3.562, 'north': 6.447, '2d': 5.293, 'altitude': 9.985, '3d': 5.003}
+Error RMS:  {'east': 6.767, 'north': 12.893, '2d': 14.561, 'altitude': 9.991, '3d': 17.66}
+Error Max:  {'east': 53.601, 'north': 59.319, '2d': 60.565, 'altitude': 52.487, '3d': 60.578}
+
+Error STD:  {'east': 0.217, 'north': 0.358, 'up': 0.314}
+Error RMS:  {'east': 0.217, 'north': 0.358, 'up': 0.314}
+Error Max:  {'east': 2.824, 'north': 7.717, 'up': 3.562}
+
+KF
+
+Error STD:  {'east': 3.849, 'north': 6.51, '2d': 5.666, 'altitude': 11.719, '3d': 6.509}
+Error RMS:  {'east': 6.465, 'north': 11.793, '2d': 13.449, 'altitude': 11.775, '3d': 17.875}
+Error Max:  {'east': 49.858, 'north': 80.22, '2d': 80.413, 'altitude': 66.434, '3d': 81.441}
+
+Error STD:  {'east': 0.228, 'north': 0.357, 'up': 0.39}
+Error RMS:  {'east': 0.228, 'north': 0.357, 'up': 0.39}
+Error Max:  {'east': 2.913, 'north': 7.659, 'up': 4.265}
+
+
+
+DOP Based Thresholding (Threshold = 15)
+
+NLS
+
+Error STD:  {'east': 3.138, 'north': 5.168, '2d': 4.858, 'altitude': 9.798, '3d': 4.488}
+Error RMS:  {'east': 6.518, 'north': 12.748, '2d': 14.317, 'altitude': 9.801, '3d': 17.351}
+Error Max:  {'east': 31.489, 'north': 59.319, '2d': 60.565, 'altitude': 52.487, '3d': 60.578}
+
+Error STD:  {'east': 0.202, 'north': 0.27, 'up': 0.301}
+Error RMS:  {'east': 0.202, 'north': 0.27, 'up': 0.301}
+Error Max:  {'east': 2.824, 'north': 7.717, 'up': 3.562}
+
+KF
+
+Error STD:  {'east': 3.263, 'north': 5.112, '2d': 4.951, 'altitude': 11.594, '3d': 5.87}
+Error RMS:  {'east': 6.085, 'north': 11.517, '2d': 13.025, 'altitude': 11.654, '3d': 17.478}
+Error Max:  {'east': 31.292, 'north': 61.797, '2d': 62.518, 'altitude': 66.434, '3d': 69.586}
+
+Error STD:  {'east': 0.224, 'north': 0.296, 'up': 0.389}
+Error RMS:  {'east': 0.225, 'north': 0.296, 'up': 0.389}
+Error Max:  {'east': 3.033, 'north': 7.622, 'up': 3.644}
+
+
+
+WLS
+
+NLS
+
+Error STD:  {'east': 12.848, 'north': 8.278, '2d': 14.188, 'altitude': 51.22, '3d': 51.812}
+Error RMS:  {'east': 13.802, 'north': 13.383, '2d': 19.225, 'altitude': 51.227, '3d': 54.716}
+Error Max:  {'east': 589.423, 'north': 305.467, '2d': 663.874, 'altitude': 2428.046, '3d': 2517.168}
+
+Error STD:  {'east': 2.495, 'north': 1.34, 'up': 10.175}
+Error RMS:  {'east': 2.496, 'north': 1.34, 'up': 10.178}
+Error Max:  {'east': 124.464, 'north': 65.579, 'up': 508.449}
+
+
+
+
+WLS + DOP Based Thresholding (Threshold = 15)
+
+NLS
+
+Error STD:  {'east': 2.846, 'north': 4.834, '2d': 4.596, 'altitude': 8.916, '3d': 4.52}
+Error RMS:  {'east': 6.262, 'north': 11.961, '2d': 13.501, 'altitude': 8.998, '3d': 16.225}
+Error Max:  {'east': 31.489, 'north': 60.095, '2d': 61.013, 'altitude': 32.567, '3d': 61.04}
+
+Error STD:  {'east': 0.2, 'north': 0.266, 'up': 0.281}
+Error RMS:  {'east': 0.2, 'north': 0.266, 'up': 0.281}
+Error Max:  {'east': 2.841, 'north': 7.717, 'up': 3.562}
+
+
+
+SVD
+
+NLS
+
+Error STD:  {'east': 2.988, 'north': 4.671, '2d': 4.543, 'altitude': 9.775, '3d': 4.199}
+Error RMS:  {'east': 6.454, 'north': 12.453, '2d': 14.026, 'altitude': 9.777, '3d': 17.097}
+Error Max:  {'east': 31.489, 'north': 48.002, '2d': 48.067, 'altitude': 52.487, '3d': 52.593}
+
+Error STD:  {'east': 0.155, 'north': 0.251, 'up': 0.296}
+Error RMS:  {'east': 0.155, 'north': 0.251, 'up': 0.296}
+Error Max:  {'east': 2.429, 'north': 7.717, 'up': 3.562}
+
+
+Weighted SVD
+
+NLS
+
+Error STD:  {'east': 2.664, 'north': 4.281, '2d': 4.237, 'altitude': 8.879, '3d': 4.208}
+Error RMS:  {'east': 6.192, 'north': 11.668, '2d': 13.209, 'altitude': 8.963, '3d': 15.963}
+Error Max:  {'east': 31.489, 'north': 48.002, '2d': 48.067, 'altitude': 32.567, '3d': 49.444}
+
+Error STD:  {'east': 0.153, 'north': 0.248, 'up': 0.271}
+Error RMS:  {'east': 0.153, 'north': 0.248, 'up': 0.271}
+Error Max:  {'east': 2.429, 'north': 7.717, 'up': 3.562}
+
+
+QR
+
+NLS
+
+Error STD:  {'east': 12.92, 'north': 8.511, '2d': 14.256, 'altitude': 51.32, '3d': 51.762}
+Error RMS:  {'east': 13.914, 'north': 14.074, '2d': 19.791, 'altitude': 51.374, '3d': 55.054}
+Error Max:  {'east': 589.423, 'north': 305.467, '2d': 663.874, 'altitude': 2428.046, '3d': 2517.168}
+
+Error STD:  {'east': 2.495, 'north': 1.34, 'up': 10.176}
+Error RMS:  {'east': 2.496, 'north': 1.34, 'up': 10.178}
+Error Max:  {'east': 124.464, 'north': 65.579, 'up': 508.449}
+
+
+
+Weighted QR
+
+NLS
+
+Error STD:  {'east': 12.848, 'north': 8.278, '2d': 14.188, 'altitude': 51.22, '3d': 51.812}
+Error RMS:  {'east': 13.802, 'north': 13.383, '2d': 19.225, 'altitude': 51.227, '3d': 54.716}
+Error Max:  {'east': 589.423, 'north': 305.467, '2d': 663.874, 'altitude': 2428.046, '3d': 2517.168}
+
+Error STD:  {'east': 2.495, 'north': 1.34, 'up': 10.175}
+Error RMS:  {'east': 2.496, 'north': 1.34, 'up': 10.178}
+Error Max:  {'east': 124.464, 'north': 65.579, 'up': 508.449}

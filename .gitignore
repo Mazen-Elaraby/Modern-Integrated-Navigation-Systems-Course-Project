@@ -1,0 +1,5 @@
+# Out-of-scope project
+/project 4/
+
+# MATLAB data files
+*.mat
